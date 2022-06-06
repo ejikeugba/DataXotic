@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Amazon Kindle Store Reviews Sentiment Analysis - DataXotic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://ejikeugba.github.io/DataXotic/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="https://ejikeugba.github.io/DataXotic/css/style.min.9686bf60ac04db11404c87d632e9f389aa86496f3f7299e8b6c6c019a3b7a705.css">
+  
+
+  
+
+</head>
+
+<body class='page page-services-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-project">
+      <a href="https://ejikeugba.github.io/DataXotic/project/">
+        
+        <span>Project</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-services">
+      <a href="https://ejikeugba.github.io/DataXotic/services/">
+        
+        <span>Services</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-research">
+      <a href="https://ejikeugba.github.io/DataXotic/research/">
+        
+        <span>Research</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about us">
+      <a href="https://ejikeugba.github.io/DataXotic/about/">
+        
+        <span>About Us</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-contact">
+      <a href="https://ejikeugba.github.io/DataXotic/contact/">
+        
+        <span>Contact</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header header-absolute'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://ejikeugba.github.io/DataXotic/"><img height=29px width=36px alt="DataXotic" src="https://ejikeugba.github.io/DataXotic/images/DXlogo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://ejikeugba.github.io/DataXotic/"><img height=36px width=36px alt="DataXotic" src="https://ejikeugba.github.io/DataXotic/images/DXlogo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-project">
+      <a href="https://ejikeugba.github.io/DataXotic/project/">
+        
+        <span>Project</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-services">
+      <a href="https://ejikeugba.github.io/DataXotic/services/">
+        
+        <span>Services</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-research">
+      <a href="https://ejikeugba.github.io/DataXotic/research/">
+        
+        <span>Research</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about us">
+      <a href="https://ejikeugba.github.io/DataXotic/about/">
+        
+        <span>About Us</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-contact">
+      <a href="https://ejikeugba.github.io/DataXotic/contact/">
+        
+        <span>Contact</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Toggle Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    
+<div id="hero" class="hero-image" style="background-image: url('/project/sentiment/amazonKindle.png')">
+  <div class="container ">
+    <div class="hero-text">
+      <span class="hero-section">project</span>
+      <h1>Amazon Kindle Store Reviews</h1>
+      <p>Sentiment analysis.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="services services-single">
+        <div class="content"><p>Amazon's e-commerce platform is one of the biggest online shopping platforms globally. Considering its large customer base with an unprecedented amount of user-experience feedback, understanding the underlying pattern of user opinions could be a very daunting task.</p>
+<p>Sentiment analysis or opinion mining provides an analytical procedure for extracting the hidden polarities in a given body of text. It offers a powerful tool for detecting the nature of opinion reflected in documents, websites, social media feeds, etc.</p>
+<p>This project considers a 5-core dataset of product reviews from the Amazon Kindle Store category from May 1996 to July 2014. The dataset was assessed from Kaggle and contains a total of 982619 entries. Sentiment analysis of the customers&rsquo; reviews was conducted in R using the tidytext and other relevant packages.</p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png"></p>
+<h4 id="pre-processing">Pre-processing:</h4>
+<p>First, the corpus of interest was subjected to thorough cleansing using the standard pre-processing functions. For instance, the character vectors of the kindle review were turned into a text source using VectorSource() and were subsequently turned into a corpus using VCorpus(). With the help of cleaning functions like removePunctuation(), stripWhitespace() and replace_abbreviation(), the unwanted characters in the corpus were all removed.</p>
+<p> </p>
+<h4 id="sentiment-scores">Sentiment scores:</h4>
+<p>After applying the tidy operation on the corpus such that each row contains a single word. The polarity scores of the unique words in the corpus were obtained. These were visualized based on their corresponding positive and negative scores (see Fig. 1 &amp; 2). As observed, the reviews seem dominated by positive sentiments.</p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/PolarityScore.png" alt="PolarityScore.png">
+<img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png">
+<img src="https://ejikeugba.github.io/DataXotic/project/sentiment/wordFrequencies.png" alt="PolarityScore.png"></p>
+<p> </p>
+<h4 id="polarity-curve">Polarity curve:</h4>
+<p>To understand the pattern of customers&rsquo; sentiments over time, a plot of the chronological polarities of the customer&rsquo;s reviews was obtained. This was achieved with the GAM smoothing method in the ggplot2 package. As observed in Figure 3, sentiment tracking over time shows a decreasing trend between 2000 and 2010 and an increase from 2010 to 2015. There was also an increase in the precision of estimates over time.</p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png"></p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/chronologicalPol.png" alt="PolarityScore.png"></p>
+<p> </p>
+<h4 id="lexical-analyzer">Lexical analyzer:</h4>
+<p>We further employed the &ldquo;bing&rdquo;, &ldquo;afnn&rdquo; and &ldquo;nrc&rdquo; lexicons to implement filter() over the texts. Bing dichotomises sentiments into positive and negative. Words in the corpus with strong (green) and poor (red) polarities are visualized in a word cloud (Figure 4). Some top positive Words include: book, read, great, love, enjoyed, story and others.</p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png"></p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/cloudplot1.png" alt="PolarityScore.png"></p>
+<p> </p>
+<p>The afinn lexicon captures sentiments based on numeric values from 5 to -5. Obtained results are shown in Figure 5, with affin scores grouped based on the numerical ratings in the kindle store reviews (1 to 5). As expected, poor ratings are averagely associated with negative words, while good reviews correspond with positive words.</p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/boxplotAfinn.png" alt="PolarityScore.png"></p>
+<p>The nrc lexicon labels words across multiple emotional states. In this particular instance, words in the review were tagged using the Plutchik&rsquo;s wheel of emotion. These are visualized in figures 6, 7 and 8. As observed, anticipation, joy and trust were the strongest sentiments in the review.</p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png"></p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/cloudplot2.png" alt="PolarityScore.png"></p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/plutchikSentiments.png" alt="PolarityScore.png"></p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/radarPlot.png" alt="PolarityScore.png"></p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png">
+<img src="https://ejikeugba.github.io/DataXotic/project/sentiment/whitespace.png" alt="PolarityScore.png"></p>
+<h4 id="summary">Summary:</h4>
+<p>In summary, customer reviews of the Amazon kindle store category yielded impressively positive results. The top positive words in Plutchik&rsquo;s wheel of emotion include anticipation, joy and trust. Nevertheless, the chronological polarities of reviewers&rsquo; sentiments shows a decrease in measure over a decade of time and a subsequent improvement afterwards. Moreover, it was observed that lower numerical ratings were associated with negative sentiments, while higher ratings were associated with positive sentiments.</p>
+</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          
+          <ul class="social">
+              
+                  <li><a href="https://github.com/ejikeugba" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/github.svg" title="Github" alt="Github" /></a></li>
+              
+                  <li><a href="https://www.researchgate.net/profile/Ejike-Ugba-2" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/researchgate.svg" title="Researchgate" alt="Researchgate" /></a></li>
+              
+                  <li><a href="https://scholar.google.com/citations?user=sa1yCmAAAAAJ&amp;hl=en&amp;oi=ao" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/Google_Scholar_logo.svg" title="Google Scholar" alt="Google Scholar" /></a></li>
+              
+                  <li><a href="https://www.linkedin.com/in/ejikeugba/" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/linkedin.svg" title="Linkedin" alt="Linkedin" /></a></li>
+              
+                  <li><a href="https://twitter.com/richyejk" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/twitter.svg" title="Twitter" alt="Twitter" /></a></li>
+              
+          </ul>
+          
+          <ul class="footer-menu">
+            <li><a href="https://ejikeugba.github.io/DataXotic/">Home</a></li>
+            <li><a href="https://ejikeugba.github.io/DataXotic/contact">Contact</a></li>
+            <li class="copyright">© 2022 DataXotic</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            
+            
+          </ul>
+          <ul>
+            <li class="zerostatic"><a href=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+
+  <script type="text/javascript" src="https://ejikeugba.github.io/DataXotic/js/services.min.5391f0933209bda9d8e64887d511141b74f3412e90cebc926a276bb54f337925.js"></script>
+  
+
+
+  
+  <script type="text/javascript" src="https://ejikeugba.github.io/DataXotic/js/scripts.min.8504133605a277da18f0d58cfd2e90d154962f4a961543a6e2f0a459a2d05462.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
