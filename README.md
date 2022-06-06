@@ -1,2 +1,0 @@
-# DataXotic
-Data Science Consulting
