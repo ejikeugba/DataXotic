@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2018-02-22T17:01:34+07:00
-heroBackground: "/images/carolinie-cavalli-Qw3w0oBH63s-unsplash.jpg"
+heroBackground: "/docs/images/carolinie-cavalli-Qw3w0oBH63s-unsplash.jpg"
 #heroBackground: 'images/markus-spiske-hvSr_CVecVI-unsplash.jpg'
 image: "images/carolinie-cavalli-Qw3w0oBH63s-unsplash.jpg"
 ---
