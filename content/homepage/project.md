@@ -1,7 +1,7 @@
 ---
 title: "From Pre-processing to Deployment!"
 weight: 1
-background: "./images/milad-fakurian-GJKx5lhwU3M-unsplash77.jpg"
+background: "././images/milad-fakurian-GJKx5lhwU3M-unsplash77.jpg"
 button: "View Projects"
 buttonLink: "project"
 ---
