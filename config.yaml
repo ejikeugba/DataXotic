@@ -1,4 +1,4 @@
-baseURL: "https://www.example.com/" #https://ejikeugba.github.io/DataXotic/
+baseURL: https://ejikeugba.github.io/DataXotic
 languageCode: en-us
 title: DataXotic
 theme: hugo-hero-theme
