@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on DataXotic</title>
-    <link>https://ejikeugba.github.io/DataXotic/services/</link>
+    <link>https://www.example.com/services/</link>
     <description>Recent content in Services on DataXotic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://ejikeugba.github.io/DataXotic/services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://www.example.com/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feature Engineering</title>
-      <link>https://ejikeugba.github.io/DataXotic/services/feature-eng/</link>
+      <link>https://www.example.com/services/feature-eng/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/services/feature-eng/</guid>
+      <guid>https://www.example.com/services/feature-eng/</guid>
       <description>Scrambling for features!
 To build a great machine learning model, it is very crucial to determine which features are the most important. Even after the data is cleaned and preprocessed, most algorithms perform better when fed with enginnered features that are specifically made to enhance the predictive properties of the dataset. A useful rule of thumb is that a fearture must have a relationship to the target in other to learn properly.</description>
     </item>
     
     <item>
       <title>Package Development</title>
-      <link>https://ejikeugba.github.io/DataXotic/services/package-dev/</link>
+      <link>https://www.example.com/services/package-dev/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/services/package-dev/</guid>
+      <guid>https://www.example.com/services/package-dev/</guid>
       <description>Bundling codes!
 Software packages are an ideal way to bundle together and distribute codes and data for re-use in any given application. This can help improve productivity while also saving a lot of time.
 We employ standard IDEs to build and maintain user-friendly packages that could be deployed to production and in empirical research. Debugging services for existing problematic codes are also provided. Any or all of the following are possible:</description>
@@ -30,10 +30,10 @@ We employ standard IDEs to build and maintain user-friendly packages that could 
     
     <item>
       <title>Web Scraping</title>
-      <link>https://ejikeugba.github.io/DataXotic/services/data-scrap/</link>
+      <link>https://www.example.com/services/data-scrap/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/services/data-scrap/</guid>
+      <guid>https://www.example.com/services/data-scrap/</guid>
       <description>Unlimited scraping!
 Are you tired of looking for a Data Entry expert? Do you need a reliable and professional Data Scraper for Data Mining, Web Scraping, Data Collection, and Data Entry projects? Look no further! You have found one!
 We provide an expert service on Data Mining, Data Scraping, Web Scraping, Data Collection, and Data Entry. We practice ethical web scraping/data mining. Our intent will be to collect the data you need without violating the TOS of a website, and without infringing on fair use web scraping practices.</description>
@@ -41,10 +41,10 @@ We provide an expert service on Data Mining, Data Scraping, Web Scraping, Data C
     
     <item>
       <title>Machine Learning</title>
-      <link>https://ejikeugba.github.io/DataXotic/services/machine-lean/</link>
+      <link>https://www.example.com/services/machine-lean/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/services/machine-lean/</guid>
+      <guid>https://www.example.com/services/machine-lean/</guid>
       <description>Superb Algorithm!
 Have you been searching for someone to support you with machine learning tasks in Python/R, you&amp;rsquo;ve arrived at the right place. We employ ML techniques to devise complex models and algorithms that lead to great prediction. our implemented algorithms enables you to produce reliable, and repeatable decisions, as well as uncover “hidden insights” through learning from historical relationships and trends in the data set.
 We invest quality time to design pipelines to improve the quality of machine learning problems, use advanced techniques for model validation, and build state-of-the-art models that improve productivity and profits.</description>
@@ -52,10 +52,10 @@ We invest quality time to design pipelines to improve the quality of machine lea
     
     <item>
       <title>A/B Testing</title>
-      <link>https://ejikeugba.github.io/DataXotic/services/ab-test/</link>
+      <link>https://www.example.com/services/ab-test/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/services/ab-test/</guid>
+      <guid>https://www.example.com/services/ab-test/</guid>
       <description>Track the clicks!
 Do you deisre to improve your website&amp;rsquo;s conversion rate? Do you want to use a data-driven approach to make your desired change a dream come through? You have just arived at the right place!
 We will create an A/B testing routine to increase your business performance with a detailed tracking of key changes in the analysis following the reports of the previous campaigns and the main target of interest.</description>
@@ -63,10 +63,10 @@ We will create an A/B testing routine to increase your business performance with
     
     <item>
       <title>Data Visualization</title>
-      <link>https://ejikeugba.github.io/DataXotic/services/data-viz/</link>
+      <link>https://www.example.com/services/data-viz/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/services/data-viz/</guid>
+      <guid>https://www.example.com/services/data-viz/</guid>
       <description>DataViz!
 Do you like to transform your raw data into stunning looking charts, plots, infographics, Dashboards etc, that will not only wow its end users but provide actionable Insights, communicate clear stories and reduce the time and effort spent on periodic reporting? You are at the right place.
 We employ several dataViz techniques to discover and explain inherent patterns and trends in datasets. The end product include:
