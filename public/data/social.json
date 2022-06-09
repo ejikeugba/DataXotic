@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/ejikeugba",
+        "image": "social/github.svg"
+    },
+    {
+        "name": "Researchgate",
+        "link": "https://www.researchgate.net/profile/Ejike-Ugba-2",
+        "image": "social/researchgate.svg"
+    },
+    {
+        "name": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=sa1yCmAAAAAJ&hl=en&oi=ao",
+        "image": "social/Google_Scholar_logo.svg"
+    },
+    {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/ejikeugba/",
+        "image": "social/linkedin.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/richyejk",
+        "image": "social/twitter.svg"
+    }
+]
+
