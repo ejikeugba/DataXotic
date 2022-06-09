@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "Web Scraping"
 heroSubHeading: "Your data on demand!"
-heroBackground: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
 thumbnail: "images/abstract-science-hands-touching-earth-circle-global-network-connection-data-exchanges-worldwide-city-sunset-background-132116924.jpg"
 ---
 

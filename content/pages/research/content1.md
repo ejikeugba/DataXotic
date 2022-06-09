@@ -2,7 +2,7 @@
 title: "No Limits"
 date: 2018-12-06T09:29:16+10:00
 weight: 1
-background: "images/kari-shea-j0dw8kTxgmM-unsplash.jpg"
+background: "./images/kari-shea-j0dw8kTxgmM-unsplash.jpg"
 align: left
 ---
 

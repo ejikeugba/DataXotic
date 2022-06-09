@@ -7,7 +7,7 @@ featured: true
 weight: 1
 heroHeading: "Feature Engineering"
 heroSubHeading: "Better features make better models!"
-heroBackground: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
 thumbnail: "images/istockphoto-1327569483-170667a.jpg"
 ---
 

@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "Data Visualization"
 heroSubHeading: "easily communicate complex ideas."
-heroBackground: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
 thumbnail: "images/istockphoto-1205428317-612x612.jpg"
 ---
 

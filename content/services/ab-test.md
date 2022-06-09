@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "A/B Testing"
 heroSubHeading: "Traffic management increases conversion rate."
-heroBackground: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
 thumbnail: "images/ab-testing-black-chalkboard-d-rendering-top-view-office-desk-stationery-business-concept-toned-illustration-77654177.png"
 ---
 

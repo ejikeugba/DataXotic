@@ -2,7 +2,7 @@
 title: "Availability"
 weight: 2
 date: 2018-12-06T09:29:16+10:00
-background: "/images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg"
+background: "./images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg"
 align: right
 button: "Contact Us"
 buttonLink: "contact"

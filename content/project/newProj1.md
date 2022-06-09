@@ -5,7 +5,7 @@ draft: false
 weight: 2
 heroHeading: "DS Project"
 heroSubHeading: "Ongoing project"
-heroBackground: "images/backgpic.jpg"
-thumbnail: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
+thumbnail: "./images/backgpic.jpg"
 images: ""
 ---

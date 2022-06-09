@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "Machine Learning"
 heroSubHeading: "Build and improve model performance."
-heroBackground: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
 thumbnail: "images/istockphoto-1295900106-612x612.jpg"
 ---
 

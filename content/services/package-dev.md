@@ -7,7 +7,7 @@ featured: true
 weight: 2
 heroHeading: "Package Development"
 heroSubHeading: "All your important functions in one place."
-heroBackground: "images/backgpic.jpg"
+heroBackground: "./images/backgpic.jpg"
 thumbnail: "images/thisisengineering-raeng-uyfohHiTxho-unsplash.jpg"
 ---
 
