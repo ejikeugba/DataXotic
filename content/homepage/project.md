@@ -1,7 +1,7 @@
 ---
 title: "From Pre-processing to Deployment!"
 weight: 1
-background: "/hugo-hero-theme/static/images/milad-fakurian-GJKx5lhwU3M-unsplash77.jpg"
+background: "https://github.com/ejikeugba/DataXotic/blob/main/docs/images/milad-fakurian-GJKx5lhwU3M-unsplash77.jpg"
 button: "View Projects"
 buttonLink: "project"
 ---
