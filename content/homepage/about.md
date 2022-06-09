@@ -1,7 +1,7 @@
 ---
 title: "Our Difference"
 weight: 2
-background: "/images/backgpic.jpg"
+background: "/themes/hugo-hero-theme/static/images/backgpic.jpg"
 button: "About Us"
 buttonLink: "about"
 # images/nasa-_SFJhRPzJHs-unsplash.jpg
