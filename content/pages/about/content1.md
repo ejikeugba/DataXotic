@@ -2,7 +2,7 @@
 title: ""
 date: 2018-12-06T09:29:16+10:00
 weight: 1
-background: "images/photo-1497316283501-6e0246fc5aa0.jpg"
+background: "/images/photo-1497316283501-6e0246fc5aa0.jpg"
 align: right
 ---
 ##### Hi!
