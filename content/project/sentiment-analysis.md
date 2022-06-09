@@ -6,8 +6,7 @@ weight: 1
 heroHeading: "Amazon Kindle Store Reviews"
 heroSubHeading: "Sentiment analysis."
 heroBackground: "images/backgpic.jpg"
-thumbnail: "images/amazonKindle2.jpg" #"project/sentiment/amazonKindle.png"
-images: ""
+thumbnail: "images/amazonKindle2.jpg" 
 ---
 
 Amazon\'s e-commerce platform is one of the biggest online shopping platforms globally. Considering its large customer base with an unprecedented amount of data on user experience, trying to summarize or understand the underlying pattern of available reviews could be a very daunting task.

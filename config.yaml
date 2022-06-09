@@ -2,7 +2,7 @@ baseURL: https://ejikeugba.github.io/DataXotic/
 languageCode: en-us
 title: DataXotic
 theme: hugo-hero-theme
-canonifyurls = true
+canonifyurls: true
 module:
   hugoVersion:
     extended: yes
