@@ -1,4 +1,4 @@
-baseURL: "https://www.example.com/" #https://ejikeugba.github.io/DataXotic
+baseURL: https://ejikeugba.github.io/DataXotic/
 languageCode: en-us
 title: DataXotic
 theme: hugo-hero-theme
@@ -8,19 +8,21 @@ module:
     extended: yes
     min: 0.92.0
 params:
-  google_analytics_id: ''
+  google_analytics_id: ""
   homepage_meta_tags:
-    meta_description: Hero is a multipurpose Hugo theme with fullscreen hero images
+    meta_description:
+      Hero is a multipurpose Hugo theme with fullscreen hero images
       and page sections. It contains content types for a business or portfolio site.
-    meta_og_description: Hero is a multipurpose Hugo theme with fullscreen hero images
+    meta_og_description:
+      Hero is a multipurpose Hugo theme with fullscreen hero images
       and page sections. It contains content types for a business or portfolio site.
     meta_og_image: https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png
     meta_og_title: DataXotic
     meta_og_type: website
     meta_og_url: https://hugo-hero.netlify.app
     meta_twitter_card: summary
-    meta_twitter_creator: '@zerostaticio'
-    meta_twitter_site: '@zerostaticio'
+    meta_twitter_creator: "@zerostaticio"
+    meta_twitter_site: "@zerostaticio"
   logo:
     alt: Hugo Hero
     desktop: images/DXlogo.png
