@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on DataXotic</title>
+    <link>https://www.example.com/project/</link>
+    <description>Recent content in Project on DataXotic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://www.example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Kindle Store Reviews Sentiment Analysis</title>
+      <link>https://www.example.com/project/sentiment-analysis/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://www.example.com/project/sentiment-analysis/</guid>
+      <description>Amazon&#39;s e-commerce platform is one of the biggest online shopping platforms globally. Considering its large customer base with an unprecedented amount of data on user experience, trying to summarize or understand the underlying pattern of available reviews could be a very daunting task.
+Sentiment analysis or opinion mining provides an analytical procedure for extracting the hidden polarities in a given body of text. It offers a powerful tool for detecting the nature of opinion reflected in documents, websites, social media feeds, etc.</description>
+    </item>
+    
+    <item>
+      <title>Ongoing Project</title>
+      <link>https://www.example.com/project/newproj1/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://www.example.com/project/newproj1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
