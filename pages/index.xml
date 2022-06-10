@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on DataXotic</title>
-    <link>https://ejikeugba.github.io/DataXotic/pages/</link>
+    <link>/pages/</link>
     <description>Recent content in Pages on DataXotic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate><atom:link href="https://ejikeugba.github.io/DataXotic/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Us</title>
-      <link>https://ejikeugba.github.io/DataXotic/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/about/</guid>
+      <guid>/about/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>https://ejikeugba.github.io/DataXotic/research/</link>
+      <link>/research/</link>
       <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/research/</guid>
+      <guid>/research/</guid>
       <description>About Heading Smoothing in Ordinal Regression: An Application to Sensory Data The so-called proportional odds assumption is popular in cumulative, ordinal regression. In practice, however, such an assumption is sometimes too restrictive. For instance, when modeling the perception of boar taint on an individual level, it turns out that, at least for some subjects, the effects of predictors (androstenone and skatole) vary between response categories. For more flexible modeling, we consider the use of a ‘smooth-effects-on-response penalty’ (SERP) as a connecting link between proportional and fully non-proportional odds models, assuming that parameters of the latter vary smoothly over response categories.</description>
     </item>
     
