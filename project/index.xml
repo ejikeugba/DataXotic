@@ -9,20 +9,20 @@
     <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://ejikeugba.github.io/DataXotic/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon Kindle Store Reviews Sentiment Analysis</title>
-      <link>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis/</link>
+      <link>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis-kindle/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis/</guid>
+      <guid>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis-kindle/</guid>
       <description>Amazon&#39;s e-commerce platform is one of the biggest online shopping platforms globally.
-Considering its large customer base with an unprecedented amount of day to day data on user experience, trying to understand the main message being conveyed from the ocean of user reviews could be a very daunting task. Sentiment analysis or opinion mining could be of help, as it provides an analytical procedure for extracting the hidden polarities in a given body of text.</description>
+Considering its large customer base with an unprecedented amount of day-to-day data on user experience, trying to understand the main message being conveyed from the ocean of user reviews could be a very daunting task. Sentiment analysis or opinion mining could be of help, as it provides an analytical procedure for extracting the hidden polarities in a given body of text.</description>
     </item>
     
     <item>
       <title>Web-scraping UEFA Champions League Data</title>
-      <link>https://ejikeugba.github.io/DataXotic/project/newproj1/</link>
+      <link>https://ejikeugba.github.io/DataXotic/project/web-scraping-uefa/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://ejikeugba.github.io/DataXotic/project/newproj1/</guid>
+      <guid>https://ejikeugba.github.io/DataXotic/project/web-scraping-uefa/</guid>
       <description>The UEFA Champions League is an annual football competition established in 1955 by the Union of European Football Associations (UEFA).
 The league features champions of all UEFA member associations, current title holders of the tournament, and clubs finishing from second to fourth position in the strongest leagues. There has been a total of 67 tournament seasons from the inaugural to the latest edition of the tournament. Documented details of the tournament seasons are available online from the official website, Wikipedia and other sources.</description>
     </item>

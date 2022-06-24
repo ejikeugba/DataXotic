@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Web-scraping UEFA Champions League Data - DataXotic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" type="image/png" href="https://ejikeugba.github.io/DataXotic/favicon.png?v=1.0">
+
+  
+  
+  <link rel="stylesheet" href="https://ejikeugba.github.io/DataXotic/css/style.min.65f63e3057b9fa4b6396da4c6acee05b18fbea5054212587a526483947cdce39.css">
+  
+
+  
+
+</head>
+
+<body class='page page-services-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-project">
+      <a href="https://ejikeugba.github.io/DataXotic/project/">
+        
+        <span>Project</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-services">
+      <a href="https://ejikeugba.github.io/DataXotic/services/">
+        
+        <span>Services</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-research">
+      <a href="https://ejikeugba.github.io/DataXotic/research/">
+        
+        <span>Research</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about">
+      <a href="https://ejikeugba.github.io/DataXotic/about/">
+        
+        <span>About</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-contact">
+      <a href="https://ejikeugba.github.io/DataXotic/contact/">
+        
+        <span>Contact</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header header-absolute'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://ejikeugba.github.io/DataXotic/"><img height=29px width=70px alt="Hugo Hero" src="https://ejikeugba.github.io/DataXotic/images/DXlogo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://ejikeugba.github.io/DataXotic/"><img height=50px width=70px alt="Hugo Hero" src="https://ejikeugba.github.io/DataXotic/images/DXlogo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-project">
+      <a href="https://ejikeugba.github.io/DataXotic/project/">
+        
+        <span>Project</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-services">
+      <a href="https://ejikeugba.github.io/DataXotic/services/">
+        
+        <span>Services</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-research">
+      <a href="https://ejikeugba.github.io/DataXotic/research/">
+        
+        <span>Research</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about">
+      <a href="https://ejikeugba.github.io/DataXotic/about/">
+        
+        <span>About</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-contact">
+      <a href="https://ejikeugba.github.io/DataXotic/contact/">
+        
+        <span>Contact</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Toggle Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    
+<div id="hero" class="hero-image" style="background-image: url('https://ejikeugba.github.io/DataXotic/images/backgpic.jpg')">
+  <div class="container ">
+    <div class="hero-text">
+      <span class="hero-section">project</span>
+      <h1>UEFA Champions League</h1>
+      <p>Exploratory Data Analysis</p>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="services services-single">
+        <div class="content"><p>The UEFA Champions League is an annual football competition established in 1955 by the Union of European Football Associations (UEFA).</p>
+<p>The league features champions of all UEFA member associations, current title holders of the tournament, and clubs finishing from second to fourth position in the strongest leagues. There has been a total of 67 tournament seasons from the inaugural to the latest edition of the tournament. Documented details of the tournament seasons are available online from the official website, Wikipedia and other sources. We consider the data on the UEFA champions league finals that is available from <a href="https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals">Wikipedia</a>.</p>
+<p> </p>
+<h4 id="pre-processing">Pre-processing:</h4>
+<p>We first scraped the UEFA champions league data from the Wikipedia website, did a thorough cleaning of the data and lastly performed an exploratory data analysis (EDA) on the dataset. The entire procedure was accomplished using a couple of R add-on libraries. We used the <code>rvest</code> library for scraping, <code>stringr</code> for editing, <code>data.table</code> for melting, <code>magrittr</code> for piping, <code>dplyr</code> for manipulating, <code>ggplot2</code> for plotting and <code>ggthemes</code> for styling. The first ten rows of the retrieved data are shown in the table below, also with a tidy and complete table available at the link given below the table.</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}"># A tibble: 67 x 10
+---------------------------------------------------------------------------------- Winners ----- Fulltime --------------- Runners-up -------
+   Season     Venue                                      Attendance    Winners     country        score     Runners-up     Country                 
+--------------------------------------------------------------------------------------------------------------------------------------------            
+1  1955–56    Parc des Princes, Paris, France                38239      ESP       Real Madrid      4–3          FRA        Reims                   
+2  1956–57    Santiago Bernabéu, Madrid, Spain              124000      ESP       Real Madrid      2–0          ITA        Fiorentina                 
+3  1957–58    Heysel Stadium, Brussels, Belgium              67000      ESP       Real Madrid      3–2          ITA        Milan                        
+4  1958–59    Neckarstadion, Stuttgart, West Germany         72000      ESP       Real Madrid      2–0          FRA        Reims                      
+5  1959–60    Hampden Park, Glasgow, Scotland               127621      ESP       Real Madrid      7–3          GER        Eintracht Frankfurt             
+6  1960–61    Wankdorf Stadium, Bern, Switzerland            26732      POR       Benfica          3–2          ESP        Barcelona                   
+7  1961–62    Olympisch Stadion, Amsterdam, Netherlands      61257      POR       Benfica          5–3          ESP        Real Madrid                  
+8  1962–63    Wembley Stadium, London, England               45715      ITA       Milan            2–1          POR        Benfica                     
+9  1963–64    Praterstadion, Vienna, Austria                 71333      ITA       Inter Milan      3–1          ESP        Real Madrid                 
+10 1964–65    San Siro, Milan, Italy                         89000      ITA       Inter Milan      1–0          POR        Benfica                     
+# ... with 57 more rows
+</code></pre><p><a href="http://htmlpreview.github.io/?https://github.com/ejikeugba/Statics/blob/main/docs/uefa-championship-finals.html">see complete table</a></p>
+<p> </p>
+<h4 id="analysis">Analysis:</h4>
+<p>In what follows, we present the results of our UEFA Champions League EDA using appropriate visualization tools. First, we see that a total of 17 countries have had the league&rsquo;s final hosted in their domains. Italy, Spain, Germany and England were the top hosts for the tournament. The well-attended events have had an average of 60,000 attendants from its inaugural competition to date. The topmost attended of all the tournaments were held at Hampden Park, Glasgow, Scotland with a record 127,621 attendees, and at Santiago Bernabéu, Madrid, Spain with 124,000 attendees. The least attended seasons finals were held in stádio do Dragão, Porto, Portugal (14,110) and Estádio da Luz, Lisbon, Portugal (0). With the zero attendance for the year 2020 due to the covid-19 pandemic.</p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-host.png" alt="uefa-attendance.png"></p>
+<p>Fig 1</p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-attendance.png" alt="uefa-attendance.png"></p>
+<p> </p>
+<p>A total of 13 nations have produced the winning team, with Spain being on top of the list. It made 30 appearances at the finals with 19 wins, while England, Italy and Germany respectively made 25, 28, and 18 appearances and 14, 12, and 8 wins. When narrowed down to clubs, we further observed that 22 clubs have won the League. Real Madrid takes the lead with a record fourteen times wins. Milan, Liverpool, Bayern Munich and Barcelona are also on top of the list, having won at least 5 times in the tournaments. Juventus have been runners-up the most times, losing seven finals. Benfica and Bayern Munich lost 5 finals each.</p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/nations-uefa.png" alt="nations.png"></p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-winners.png" alt="uefa-winners.png"></p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-runners-up.png" alt="uefa-runners-up.png"></p>
+<p> </p>
+<p>We further observe the distribution of the (full-time) scores in the tournaments&rsquo; finals. The distribution is skewed to the right, of course, indicating the toughness of the games. Most of the seasons had no more than three goals at full-time, with the several wins made with just a 1-0 score at full-time. About 18% of the tournament finals ended in a draw, thus, decided by a penalty shoot-out.</p>
+<p> </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-fulltime-score.png" alt="uefa-fulltime-score.png"></p>
+<p> </p>
+<h4 id="summary">Summary:</h4>
+<p>No team waste resources and time just to show a mere presence at a tournament. The goal has always been to get into the final stage to kiss and lift up the victorious trophy. We have shown in our EDA the performances of teams who made it to the UEFA champions league finals over the years. Spain remains on top of the list with its 19 wins out of 30 appearances at the finals. Real Madrid, which happens to be both the inaugural and the current title holder, gave Spain 14 out of the 19 wins, with the remaining 5 won by Barcelona. Juventus made the most runner-up down the years. Lastly, we observed that the distribution of the scores skewed to the right while also including a draw, indicating a tough and fiercely contested League.</p>
+<p>Further discussions, results and materials from this project are available on request. <a href="https://ejikeugba.github.io/DataXotic/contact/">Contact us</a> today!</p>
+<p> </p>
+<p><a href="https://ejikeugba.github.io/DataXotic/project/">Back To Project</a></p>
+</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          
+          <ul class="social">
+              
+                  <li><a href="https://github.com/ejikeugba" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/github.svg" title="Github" alt="Github" /></a></li>
+              
+                  <li><a href="https://www.researchgate.net/profile/Ejike-Ugba-2" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/researchgate.svg" title="Researchgate" alt="Researchgate" /></a></li>
+              
+                  <li><a href="https://scholar.google.com/citations?user=sa1yCmAAAAAJ&amp;hl=en&amp;oi=ao" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/Google_Scholar_logo.svg" title="Google Scholar" alt="Google Scholar" /></a></li>
+              
+                  <li><a href="https://www.linkedin.com/in/ejikeugba/" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/linkedin.svg" title="Linkedin" alt="Linkedin" /></a></li>
+              
+                  <li><a href="https://twitter.com/richyejk" target="blank"><img width="20" height="20" src="https://ejikeugba.github.io/DataXotic/social/twitter.svg" title="Twitter" alt="Twitter" /></a></li>
+              
+          </ul>
+          
+          <ul class="footer-menu">
+            <li><a href="https://ejikeugba.github.io/DataXotic/">Home</a></li>
+            <li><a href="https://ejikeugba.github.io/DataXotic/contact">Contact</a></li>
+            <li class="copyright">© 2022 DataXotic</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            
+            
+          </ul>
+          <ul>
+            <li class="zerostatic"><a href=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+
+  <script type="text/javascript" src="https://ejikeugba.github.io/DataXotic/js/services.min.b751cc56c8b51fe88812d5b02b6c84702e64c7e3654639ab031dde2753b737d7.js"></script>
+  
+
+
+  
+  <script type="text/javascript" src="https://ejikeugba.github.io/DataXotic/js/scripts.min.98ee06cc35517b5800b382aecb0fc59893e95b9c11dd21842d0d57e4f68043e3.js"></script>
+  
+
+  
+  
+  
+    
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SW8Z7Q15X6"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-SW8Z7Q15X6');
+      </script>
+    
+  
+
+
+</body>
+</html>
