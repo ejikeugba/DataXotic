@@ -8,16 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Feb 2018 15:37:57 +0700</lastBuildDate><atom:link href="https://ejikeugba.github.io/DataXotic/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Amazon Kindle Store Reviews Sentiment Analysis</title>
-      <link>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis/</guid>
-      <description>Amazon&#39;s e-commerce platform is one of the biggest online shopping platforms globally. Considering its large customer base with an unprecedented amount of data on user experience, trying to summarize or understand the underlying pattern of available reviews could be a very daunting task.
-Sentiment analysis or opinion mining provides an analytical procedure for extracting the hidden polarities in a given body of text. It offers a powerful tool for detecting the nature of opinion reflected in documents, websites, social media feeds, etc.</description>
-    </item>
-    
-    <item>
       <title>Feature Engineering</title>
       <link>https://ejikeugba.github.io/DataXotic/services/feature-eng/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
@@ -25,15 +15,6 @@ Sentiment analysis or opinion mining provides an analytical procedure for extrac
       <guid>https://ejikeugba.github.io/DataXotic/services/feature-eng/</guid>
       <description>Scrambling for features!
 To build a great machine learning model, it is very crucial to determine which features are the most important. Even after the data is cleaned and preprocessed, most algorithms perform better when fed with enginnered features that are specifically made to enhance the predictive properties of the dataset. A useful rule of thumb is that a fearture must have a relationship to the target in other to learn properly.</description>
-    </item>
-    
-    <item>
-      <title>Ongoing Project</title>
-      <link>https://ejikeugba.github.io/DataXotic/project/newproj1/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>https://ejikeugba.github.io/DataXotic/project/newproj1/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -108,6 +89,26 @@ We will create an A/B testing routine to increase your business performance with
 Do you like to transform your raw data into stunning looking charts, plots, infographics, Dashboards etc, that will not only wow its end users but provide actionable Insights, communicate clear stories and reduce the time and effort spent on periodic reporting? You are at the right place.
 We employ several dataViz techniques to discover and explain inherent patterns and trends in datasets. The end product include:
 Basic Charts: Bar charts, Scatter plots, Area charts, Maps, Pie charts, Bubble charts Statistical Charts: Box plots, Histograms, Distplots etc.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Kindle Store Reviews Sentiment Analysis</title>
+      <link>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://ejikeugba.github.io/DataXotic/project/sentiment-analysis/</guid>
+      <description>Amazon&#39;s e-commerce platform is one of the biggest online shopping platforms globally.
+Considering its large customer base with an unprecedented amount of day to day data on user experience, trying to understand the main message being conveyed from the ocean of user reviews could be a very daunting task. Sentiment analysis or opinion mining could be of help, as it provides an analytical procedure for extracting the hidden polarities in a given body of text.</description>
+    </item>
+    
+    <item>
+      <title>Web-scraping UEFA Champions League Data</title>
+      <link>https://ejikeugba.github.io/DataXotic/project/newproj1/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://ejikeugba.github.io/DataXotic/project/newproj1/</guid>
+      <description>The UEFA Champions League is an annual football competition established in 1955 by the Union of European Football Associations (UEFA).
+The league features champions of all UEFA member associations, current title holders of the tournament, and clubs finishing from second to fourth position in the strongest leagues. There has been a total of 67 tournament seasons from the inaugural to the latest edition of the tournament. Documented details of the tournament seasons are available online from the official website, Wikipedia and other sources.</description>
     </item>
     
   </channel>
