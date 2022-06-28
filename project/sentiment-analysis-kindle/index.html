@@ -122,7 +122,7 @@
   <div class="container ">
     <div class="hero-text">
       <span class="hero-section">project</span>
-      <h1>Customer Reviews</h1>
+      <h1>Customer Review</h1>
       <p>Sentiment analysis</p>
     </div>
   </div>
@@ -137,10 +137,10 @@
 <p>This project considers a subset of data on Amazon&rsquo;s kindle store reviews available on Kaggle. Altogether we used a total of 10000 entries with two columns containing the reviewers&rsquo; numeric rating and the review texts. Our sentiment analysis was conducted in R mainly with the tidytext package and other relevant packages.</p>
 <p> </p>
 <h4 id="pre-processing">Pre-processing:</h4>
-<p>First, the corpus of interest was subjected to thorough cleansing using the standard pre-processing functions. For instance, the character vectors of the kindle review were turned into a text source using VectorSource() and were subsequently turned into a corpus using VCorpus(). With the help of cleaning functions like removePunctuation(), stripWhitespace() and replace_abbreviation(), the unwanted characters in the corpus were all removed. The stemDocument() function was further used to near-duplicate words.</p>
+<p>First, the corpus of interest was subjected to thorough cleansing using the standard pre-processing functions. For instance, the character vectors of the kindle review were turned into a text source using <code>VectorSource()</code> and were subsequently turned into a corpus using <code>VCorpus()</code>. With the help of cleaning functions like <code>removePunctuation()</code>, <code>stripWhitespace()</code> and <code>replace_abbreviation()</code>, the unwanted characters in the corpus were all removed. The <code>stemDocument()</code> function was further used to remove all near-duplicate words.</p>
 <p> </p>
 <h4 id="sentiment-scores">Sentiment scores:</h4>
-<p>After applying the tidy operation on the corpus such that each row contains a single word. The polarity scores of the unique words in the corpus were obtained. These were visualized based on their corresponding positive and negative scores (see Fig. 1 &amp; 2). As observed, the reviews seem dominated by positive sentiments.</p>
+<p>After applying the tidy operation on the corpus such that each row contains a single word, the polarity scores of the unique words in the corpus were obtained. These were visualized based on their corresponding positive and negative scores (see Fig. 1 &amp; 2). As observed, the reviews seem dominated by positive sentiments.</p>
 <p> </p>
 <p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/PolarityScore.png" alt="PolarityScore.png"></p>
 <p> </p>

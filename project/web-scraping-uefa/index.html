@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Web-scraping UEFA Champions League Data - DataXotic</title>
+  <title>EDA of UEFA Champions League Finals - DataXotic</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/png" href="https://ejikeugba.github.io/DataXotic/favicon.png?v=1.0">
@@ -122,7 +122,7 @@
   <div class="container ">
     <div class="hero-text">
       <span class="hero-section">project</span>
-      <h1>UEFA Champions League</h1>
+      <h1>UEFA Champions League Finals</h1>
       <p>Exploratory Data Analysis</p>
     </div>
   </div>
@@ -136,7 +136,7 @@
 <p>The league features champions of all UEFA member associations, current title holders of the tournament, and clubs finishing from second to fourth position in the strongest leagues. There has been a total of 67 tournament seasons from the inaugural to the latest edition of the tournament. Documented details of the tournament seasons are available online from the official website, Wikipedia and other sources. We consider the data on the UEFA champions league finals that is available from <a href="https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals">Wikipedia</a>.</p>
 <p> </p>
 <h4 id="pre-processing">Pre-processing:</h4>
-<p>We first scraped the UEFA champions league data from the Wikipedia website, did a thorough cleaning of the data and lastly performed an exploratory data analysis (EDA) on the dataset. The entire procedure was accomplished using a couple of R add-on libraries. We used the <code>rvest</code> library for scraping, <code>stringr</code> for editing, <code>data.table</code> for melting, <code>magrittr</code> for piping, <code>dplyr</code> for manipulating, <code>ggplot2</code> for plotting and <code>ggthemes</code> for styling. The first ten rows of the retrieved data are shown in the table below, also with a tidy and complete table available at the link given below the table.</p>
+<p>We first scraped the UEFA champions league data from the Wikipedia website, followed by a thorough cleansing of the data and lastly performed an exploratory data analysis (EDA) on the dataset. The entire procedure was accomplished using a couple of R add-on libraries. We used the <code>rvest</code> library for scraping, <code>stringr</code> for editing, <code>data.table</code> for melting, <code>magrittr</code> for piping, <code>dplyr</code> for manipulating, <code>ggplot2</code> for plotting and <code>ggthemes</code> for styling. The first ten rows of the retrieved data are shown in the table below, also with a tidy and complete table available at the link given below the table.</p>
 <pre tabindex="0"><code class="language-{r}" data-lang="{r}"># A tibble: 67 x 10
 ---------------------------------------------------------------------------------- Winners ----- Fulltime --------------- Runners-up -------
    Season     Venue                                      Attendance    Winners     country        score     Runners-up     Country                 
@@ -170,7 +170,7 @@
 <p> </p>
 <p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-runners-up.png" alt="uefa-runners-up.png"></p>
 <p> </p>
-<p>We further observe the distribution of the (full-time) scores in the tournaments&rsquo; finals. The distribution is skewed to the right, of course, indicating the toughness of the games. Most of the seasons had no more than three goals at full-time, with the several wins made with just a 1-0 score at full-time. About 18% of the tournament finals ended in a draw, thus, decided by a penalty shoot-out.</p>
+<p>We further observe the distribution of the (full-time) scores in the tournaments&rsquo; finals. The distribution is skewed to the right, of course, indicating the toughness of the games. Most of the seasons had no more than three goals at full-time, with several wins made with just a 1-0 score at full-time. About 18% of the tournament finals ended in a draw, thus, decided by a penalty shoot-out.</p>
 <p> </p>
 <p><img src="https://ejikeugba.github.io/DataXotic/project/webscraping/uefa-fulltime-score.png" alt="uefa-fulltime-score.png"></p>
 <p> </p>
