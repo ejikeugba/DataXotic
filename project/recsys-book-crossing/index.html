@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Amazon Kindle Store Reviews Sentiment Analysis - DataXotic</title>
+  <title>Book-Crossing Recommender Engine with Python - DataXotic</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/png" href="https://ejikeugba.github.io/DataXotic/favicon.png?v=1.0">
@@ -122,8 +122,8 @@
   <div class="container ">
     <div class="hero-text">
       <span class="hero-section">project</span>
-      <h1>Customer Review</h1>
-      <p>Sentiment analysis</p>
+      <h1>Book-Crossing</h1>
+      <p>Recommendation system</p>
     </div>
   </div>
 </div>
@@ -132,46 +132,31 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="services services-single">
-        <div class="content"><p>Amazon's e-commerce platform is one of the biggest online shopping platforms globally.</p>
-<p>Considering its large customer base with an unprecedented amount of day-to-day data on user experience, trying to understand the main message being conveyed from the ocean of user reviews could be a very daunting task. Sentiment analysis or opinion mining could be of help, as it provides an analytical procedure for extracting the hidden polarities in a given body of text. It offers a powerful tool for detecting the nature of opinion reflected in documents, websites, social media feeds, etc.</p>
-<p>This project considers a subset of data on Amazon&rsquo;s kindle store reviews available on Kaggle. Altogether we used a total of 10000 entries with two columns containing the reviewers&rsquo; numeric rating and the review texts. Our sentiment analysis was conducted in R mainly with the tidytext package and other relevant packages.</p>
+        <div class="content"><p>Recommender engines are machine learning systems that facilitate a quick discovery of new products and services that might be of great interest.</p>
+<p>In this era of e-commerce and several competing online services, one cannot but feel the impact of product recommendations in one’s day-to-day life. Every time we shop online, an underlying recommendation system guides us towards the most likely product that might be of interest to users. Such systems are generally grouped into two main categories: collaborative filtering and content-based systems. The later approach was adopted in this project. The system, developed in python, was integrated into a web app and subsequently deployed to Heroku.</p>
 <p> </p>
-<h5 id="pre-processing">Pre-processing:</h5>
-<p>First, the corpus of interest was subjected to thorough cleansing using the standard pre-processing functions. For instance, the character vectors of the kindle review were turned into a text source using <code>VectorSource()</code> and were subsequently turned into a corpus using <code>VCorpus()</code>. With the help of cleaning functions like <code>removePunctuation()</code>, <code>stripWhitespace()</code> and <code>replace_abbreviation()</code>, the unwanted characters in the corpus were all removed. The <code>stemDocument()</code> function was further used to remove all near-duplicate words.</p>
-<p> </p>
-<h5 id="sentiment-scores">Sentiment scores:</h5>
-<p>After applying the tidy operation on the corpus such that each row contains a single word, the polarity scores of the unique words in the corpus were obtained. These were visualized based on their corresponding positive and negative scores (see Fig. 1 &amp; 2). As observed, the reviews seem dominated by positive sentiments.</p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/PolarityScore.png" alt="PolarityScore.png"></p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/wordFrequencies.png" alt="PolarityScore.png"></p>
-<p> </p>
-<h5 id="chronological-polarity">Chronological Polarity:</h5>
-<p>To understand the pattern of customers&rsquo; sentiments over time, a plot of the chronological polarities of the customer&rsquo;s reviews was obtained. This was achieved with the GAM smoothing method in the ggplot2 package. As observed in Figure 3, though predominantly positive, the sentiment tracking of reviews made a dip at some points. The later reviews were nonetheless on increasing positive sentiments.</p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/chronologicalPol.png" alt="PolarityScore.png"></p>
-<p> </p>
-<h5 id="lexical-analyzer">Lexical analyzer:</h5>
-<p>We further employed the &ldquo;bing&rdquo;, &ldquo;afnn&rdquo; and &ldquo;nrc&rdquo; lexicons to implement filter() over the texts. Bing dichotomises sentiments into positive and negative sentiments. Words in the corpus with strong positive (green) and negative (red) polarities are visualized in a word cloud (Figure 4). Some top positive Words include: love, read, like, good, book, great, enjoy, story and others.</p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/cloudplot1.png" alt="PolarityScore.png"></p>
-<p> </p>
-<p>The afinn lexicon captures sentiments based on numeric values from 5 to -5. Obtained results are shown in Figure 5, with affin scores grouped based on the numerical ratings in reviews (1 to 5). As expected, poor ratings are averagely associated with negative words, while good reviews correspond with positive words.</p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/boxplotAfinn.png" alt="PolarityScore.png"></p>
-<p> </p>
-<p>The nrc lexicon labels words across multiple emotional states. In this particular instance, words in the review were tagged using the Plutchik&rsquo;s wheel of emotion. These are visualized in figures 6, 7 and 8. As observed, anticipation, joy and trust were the strongest sentiments in the review.</p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/cloudplot2.png" alt="PolarityScore.png"></p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/plutchikSentiments.png" alt="PolarityScore.png"></p>
-<p> </p>
-<p><img src="https://ejikeugba.github.io/DataXotic/project/sentiment/radarPlot.png" alt="PolarityScore.png"></p>
-<p> </p>
-<h5 id="final-thoughts">Final thoughts:</h5>
-<p>In summary, customer reviews of the Amazon kindle store category yielded impressively positive results. Words such as, love, like, good, enjoy, great and many more dominated the reviews. Moreover, the top positive words in the Plutchik&rsquo;s wheel of emotion include anticipation, joy and trust. Nevertheless, the chronological polarities of reviewers&rsquo; sentiments shows some levels of volatility over time . Finally, it was seen that lower numerical ratings were associated with negative sentiments, while higher ratings were associated with positive sentiments.</p>
+<h5 id="book-crossing-data">Book-crossing data:</h5>
+<p>The data used for this project was adapted from the book-crossing dataset available <a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/">here</a>. The data was originally collected by Cai-Nicolas Ziegler in a 4-week crawl (August / September 2004) from the Book-Crossing community. It contains a total of 278,858 users (anonymized but with demographic information) providing 1,149,780 ratings (explicit / implicit) and about 271,379 books. More details about the dataset are available <a href="https://dl.acm.org/doi/10.1145/1060745.1060754">here</a>. The final data for analysis was obtained after a thorough cleansing of the original dataset. These include checking for missing data points, wrong variable types and many more. To make things simple, we compressed the three separate datasets into one, with an inner joins of the relevant variables, bringing the total number of row entries to 32183. The demographic information of all users in the original dataset is shown in the figure below. As observed, greater number of users come from North American and Europe. These respectively account for about 60 and 30 per cent of all users.</p>
+<p> 
+<img src="https://ejikeugba.github.io/DataXotic/project/RecSystem/geoRegion.png" alt="geoRegion.png"></p>
+<p> 
+ </p>
+<h5 id="recommender-engine">Recommender Engine</h5>
+<p>As already mentioned, a content-based filtering system that depends on item-to-item similarity and the user’s explicit preferences was developed. Three important concepts that went into building such a system include Vectors, TF-IDF and Cosine Similarity. Texts or words were first converted into vectors and represented in a vector space model. The TF-IDF, a short for Term Frequency and Inverse Document Frequency was used to evaluate the importance of words in the corpus generated from the dataset. Cosine similarity was subsequently employed to measure the degree of similarity of all the items represented in a vector. Recommendations were thereafter made based on the scores of the different items in the document corpus. The python source files for the developed system are available in the project repository.</p>
+<p> 
+ </p>
+<p><img src="https://ejikeugba.github.io/DataXotic/project/RecSystem/BookRecSys.jpg" alt="BookRecSys.jpg"></p>
+<p> 
+ </p>
+<h5 id="web-app">Web App</h5>
+<p>For a more user-friendly interface, the developed recommendation system was incorporated into a <a href="https://bookrecomy.herokuapp.com/">web app</a> using streamlit. The app provides for selecting an item from a drop-down list, with a resultant list of similar items being generated. A table containing detailed information about the recommended items can as well be downloaded.</p>
+<p> 
+ </p>
+<h5 id="final-thoughts">Final thoughts</h5>
+<p>Several organisations today employ recommender systems to make super-relevant recommendations of different products and services to customers. In this project, we developed a content-based recommendation system for items in the book-crossing dataset. It was further developed into a web app and subsequently deployed to Heroku.</p>
 <p>You are welcome to <a href="https://ejikeugba.github.io/DataXotic/contact/">contact</a> DataXotic for questions or extra materials on this project.</p>
-<p> </p>
+<p> 
+ </p>
 <p><a href="https://ejikeugba.github.io/DataXotic/project/">Back To Project</a></p>
 </div>
       </div>

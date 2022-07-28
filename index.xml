@@ -102,7 +102,17 @@ Considering its large customer base with an unprecedented amount of day-to-day d
     </item>
     
     <item>
-      <title>EDA of UEFA Champions League Finals</title>
+      <title>Book-Crossing Recommender Engine with Python</title>
+      <link>https://ejikeugba.github.io/DataXotic/project/recsys-book-crossing/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://ejikeugba.github.io/DataXotic/project/recsys-book-crossing/</guid>
+      <description>Recommender engines are machine learning systems that facilitate a quick discovery of new products and services that might be of great interest.
+In this era of e-commerce and several competing online services, one cannot but feel the impact of product recommendations in one’s day-to-day life. Every time we shop online, an underlying recommendation system guides us towards the most likely product that might be of interest to users. Such systems are generally grouped into two main categories: collaborative filtering and content-based systems.</description>
+    </item>
+    
+    <item>
+      <title>EDA on Web-Scraped UEFA Champions League Finals</title>
       <link>https://ejikeugba.github.io/DataXotic/project/web-scraping-uefa/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
