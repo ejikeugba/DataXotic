@@ -135,19 +135,29 @@
       <p>You can easily reach us by writing to <strong><a href="mailto:dataxotic@outlook.com">dataxotic@outlook.com</a></strong> or by filling out the contact form below.  We look forward to hearing from you.</p>
 
 
-      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xayvvonz" method="post">
+
+
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+            action="https://formsubmit.co/dataxotic@outlook.com" method="post">
         <fieldset id="fs-frm-inputs">
           <label for="full-name">Full Name</label>
           <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
           <label for="email-address">Email Address</label>
           <input type="email" name="_replyto" id="email-address" placeholder="address@something.xxx" required="">
           <label for="message">Message</label>
-          <textarea rows="5" name="message" id="message" placeholder="Your message here!." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          <textarea rows="5" name="message" id="message" placeholder="Your message here!" required=""></textarea>
         </fieldset>
+      
+        <!-- Hidden FormSubmit settings -->
+        <input type="hidden" name="_subject" value="New message from DataXotic Contact Form">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://ejikeugba.github.io/DataXotic/thankyou.html">
+        <input type="text" name="_honey" style="display:none">
+      
         <input type="submit" value="Submit">
-        <br><br><br><br><br><br>
-      </form><style> 
+      </form><style>
+        
       #fs-frm input,
       #fs-frm select,
       #fs-frm textarea,
