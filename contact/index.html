@@ -136,25 +136,30 @@
 
 
 
-    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-          action="https://formsubmit.co/dataxotic@outlook.com" method="POST">
-      <fieldset id="fs-frm-inputs">
-        <label for="full-name">Full Name</label>
-        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    
-        <label for="email-address">Email Address</label>
-        <input type="email" name="email" id="email-address" placeholder="address@something.xxx" required="">
-    
-        <label for="message">Message</label>
-        <textarea rows="5" name="message" id="message" placeholder="Your message here!" required=""></textarea>
-    
-        <!-- Hidden redirect and settings -->
-        <input type="hidden" name="_next" value="https://ejikeugba.github.io/DataXotic/thankyou.html">
-        <input type="hidden" name="_captcha" value="false">
-      </fieldset>
-    
-      <input type="submit" value="Submit">
-    </form></style>
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+            action="https://formsubmit.co/dataxotic@outlook.com" method="POST">
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+      
+          <label for="email-address">Email Address</label>
+          <input type="email" name="email" id="email-address" placeholder="address@something.xxx" required="">
+
+          <input type="hidden" name="_next" value="https://ejikeugba.github.io/DataXotic/thankyou.html">
+          <input type="hidden" name="_replyto" value="%email%">
+          
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Your message here!" required=""></textarea>
+      
+          <!-- Optional: redirect to thank-you page -->
+          <input type="hidden" name="_next" value="https://ejikeugba.github.io/DataXotic/thankyou.html">
+      
+          <!-- Optional: prevent spam -->
+          <input type="hidden" name="_captcha" value="false">
+        </fieldset>
+      
+        <input type="submit" value="Submit">
+      </form></style>
 
         
       #fs-frm input,
